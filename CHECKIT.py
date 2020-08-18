@@ -1,8 +1,8 @@
-num1 = input('Enter first Number')
-num2 = input('Enter Second Number')
+num1 = int(input("Enter first Number"))
+num2 = int(input("Enter Second Number"))
 
-def Add(num1,num2)
-    sum =float(num1)+float(num2)
-    return sum
+def Add(num1,num2):
+    sum =num1+num2
+    print("Addition of two number"+sum)
 
- print sum
+ Add(num1,num2)
